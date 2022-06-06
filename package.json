@@ -1,8 +1,9 @@
 {
     "name": "@riadh-adrani/recursive-components",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "The official component kit for Recurisve.js",
     "main": "index.js",
+    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/RiadhAdrani/recursive-components"
@@ -10,11 +11,18 @@
     "scripts": {
         "start": "webpack-dev-server --config webpack.dev.js --open"
     },
-    "keywords": [],
-    "author": "",
-    "license": "MIT",
+    "keywords": [
+        "recursive",
+        "recursive-components",
+        "ui",
+        "library",
+        "kit"
+    ],
     "dependencies": {
         "@riadh-adrani/recursive": "^0.7.7"
+    },
+    "publishConfig": {
+        "access": "public"
     },
     "devDependencies": {
         "clean-webpack-plugin": "^4.0.0",

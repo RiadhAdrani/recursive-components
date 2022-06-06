@@ -1,6 +1,6 @@
 import { Render } from "@riadh-adrani/recursive";
-import { Column } from "../Utility";
+import { Column } from "../../Utility";
 
 Render(() => {
-    return Column({ children: "Hello World" });
+    return Column({ children: "Cringe" });
 });
