@@ -1,0 +1,46 @@
+import { CreateComponent } from "@riadh-adrani/recursive";
+
+export default ({
+    alt,
+    crossOrigin,
+    decoding,
+    height,
+    isMap,
+    loading,
+    referrerPolicy,
+    sizes,
+    src,
+    srcSet,
+    width,
+    ueMap,
+    props,
+    key,
+    events,
+    hooks,
+    style,
+    flags,
+}) => {
+    return new CreateComponent({
+        tag: "img",
+        props: {
+            ...props,
+            alt,
+            crossOrigin,
+            decoding,
+            height,
+            isMap,
+            loading,
+            referrerPolicy,
+            sizes,
+            src,
+            srcSet,
+            width,
+            ueMap,
+        },
+        key,
+        events,
+        hooks,
+        style,
+        flags,
+    });
+};
