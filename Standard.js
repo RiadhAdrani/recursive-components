@@ -144,7 +144,7 @@ export { Address, Article, Aside, Footer, H1, H2, H3, H4, H5, H6, Header, Main, 
 
 import Math from "./src/components/standard/math/Math.js";
 
-export { Math, Svg };
+export { Math };
 
 import Caption from "./src/components/standard/table/Caption.js";
 import Col from "./src/components/standard/table/Col.js";

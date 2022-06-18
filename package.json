@@ -1,6 +1,6 @@
 {
     "name": "@riadh-adrani/recursive-components",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "The official component kit for Recurisve.js",
     "main": "index.js",
     "license": "MIT",
@@ -19,7 +19,7 @@
         "kit"
     ],
     "dependencies": {
-        "@riadh-adrani/recursive": "^0.7.11"
+        "@riadh-adrani/recursive": "^0.7.12"
     },
     "publishConfig": {
         "access": "public"
