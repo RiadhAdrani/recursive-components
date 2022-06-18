@@ -1,4 +1,4 @@
-import { CreateComponent } from "@riadh-adrani/recursive";
+import CreateSvgComponent from "@riadh-adrani/recursive/src/recursive-svg/CreateSvgComponent.js";
 
 export default ({
     children,
@@ -15,10 +15,10 @@ export default ({
     style,
     flags,
 }) => {
-    return new CreateComponent({
+    return new CreateSvgComponent({
         tag: "svg",
         children,
-        props: { ...props, height, preserveAspectRatio, viewBox, width, x, y },
+        props: { height, preserveAspectRatio, viewBox, width, x, y, ...props },
         key,
         events,
         hooks,

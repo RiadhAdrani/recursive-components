@@ -142,8 +142,7 @@ import Section from "./src/components/standard/sectionning/Section.js";
 
 export { Address, Article, Aside, Footer, H1, H2, H3, H4, H5, H6, Header, Main, Nav, Section };
 
-import Math from "./src/components/standard/svg-math/Math.js";
-import Svg from "./src/components/standard/svg-math/Svg.js";
+import Math from "./src/components/standard/math/Math.js";
 
 export { Math, Svg };
 
